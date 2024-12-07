@@ -3,7 +3,7 @@
 This is the official codebase of the paper
 
 [Code Repair with LLMs gives an Exploration-Exploitation Tradeoff](https://arxiv.org/abs/2405.17503)\
-[Hao Tang](https://haotang1995.github.io/), Keya Hu, [Jin Peng Zhou](https://scholar.google.com/citations?user=Nf48jqcAAAAJ&hl=en), [Sicheng Zhong](https://www.linkedin.com/in/si-cheng-zhong-9786881b6/), [Wei-Long Zheng](https://weilongzheng.github.io/), [Xujie Si](https://www.cs.toronto.edu/~six/), and [Kevin Ellis](https://www.cs.cornell.edu/~ellisk/)
+[Hao Tang](https://haotang1995.github.io/), [Keya Hu](https://lillian039.github.io/), [Jin Peng Zhou] (https://scholar.google.com/citations?user=Nf48jqcAAAAJ&hl=en), [Sicheng Zhong](https://www.linkedin.com/in/si-cheng-zhong-9786881b6/), [Wei-Long Zheng](https://weilongzheng.github.io/), [Xujie Si](https://www.cs.toronto.edu/~six/), and [Kevin Ellis](https://www.cs.cornell.edu/~ellisk/)
 
 ## Overview
 REx (Refine, Explore, Exploit) is a simple yet effective adaptive code repair algorithm. We show that refinement exposes an explore-exploit tradeoff: exploit by refining the program that passes the most test cases, or explore by refining a lesser considered program. We frame this as an arm-acquiring bandit problem, which we solve with Thompson Sampling. The resulting LLM-based program synthesis algorithm is broadly applicable: Across loop invariant synthesis, visual reasoning puzzles, and competition programming problems, we find that our new method can solve more problems using fewer language model calls.
